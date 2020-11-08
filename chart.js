@@ -1,10 +1,10 @@
-const dims = { height: 500, width: 1200 };
+const dims = { height: 600, width: 800 };
 
 const svg = d3
     .select(".canvas")
     .append("svg")
-    .attr("width", dims.width + 100)
-    .attr("height", dims.height + 100);
+    .attr("width", dims.width + 200)
+    .attr("height", dims.height + 200);
 
 const graph = svg.append("g").attr("transform", "translate(50, 50)");
 
